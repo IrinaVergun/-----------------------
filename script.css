@@ -20,3 +20,23 @@ div {
   font-size: 30px;
   background-color: aqua;
 }
+@media screen and (max-width: 576px) {
+  .rosp {
+    font-size: 10px;
+  }
+  .women {
+    font-size: 25px;
+    margin-top: 20%;
+  }
+  .itog {
+    font-size: 20px;
+  }
+
+  html {
+    width: 90%;
+  }
+  div {
+    border: 2px solid black;
+    /* margin: 5px; */
+  }
+}
